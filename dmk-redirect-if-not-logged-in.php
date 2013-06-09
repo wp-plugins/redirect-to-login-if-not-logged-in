@@ -1,14 +1,14 @@
 <?php
 /**
- * @package Redirect if not logged in
- * @version 1.2
+ * @package Redirect to login if not logged in
+ * @version 1.3
  */
 /*
-Plugin Name: Redirect if not logged in
+Plugin Name: Redirect to login if not logged in
 Plugin URI: http://wordpress.org/plugins/redirect-to-login-if-not-logged-in/
 Description: Redirect to wp-login.php if user is not logged in.
 Author: Daan Kortenbach
-Version: 1.2
+Version: 1.3
 Author URI: http://daan.kortenba.ch/
 */
 
