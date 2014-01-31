@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: redirect, login
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Redirects site visitors to the login page if the visitor is not logged in.
 
 == Description ==
 
-Redirects site visitors to the login page if the visitor is not logged in. This plugin is used fairly often for sites in development or sites only available for registered users.
+Redirects a user to the login page if the user is not logged in. After login the user gets redirected to the original entry page. This plugin is used fairly often for sites in development or sites only available for registered users.
 
 == Installation ==
 
@@ -20,6 +20,10 @@ Redirects site visitors to the login page if the visitor is not logged in. This 
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.5 =
+* Complete rewrite to use the already existing auth_redirect hook.
+* Strips '?loggedout=true' from redirect url after login.
 
 = 1.4 =
 * Moved the conditionals to the init hook due to some edge cases not redirecting.
