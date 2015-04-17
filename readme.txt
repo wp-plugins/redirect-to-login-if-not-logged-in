@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: redirect, login
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 1.6.2
+Stable tag: 1.6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,9 @@ Redirects a user to the login page if the user is not logged in. After login the
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.6.3 =
+* Fix svn repo.
 
 = 1.6.2 =
 * Version file mismatch fix.
